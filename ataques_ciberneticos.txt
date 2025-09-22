@@ -1,0 +1,52 @@
+Ataque 1: MOVEit / Cl0p (Data breach via exploração de vulnerabilidade)
+
+1- Data do ataque (aproximada):
+Maio–Junho de 2023
+
+2- Tipo de ataque:
+Data breach com exploração de vulnerabilidade em aplicação web (SQL Injection) e exfiltração de dados.
+
+3- Descrição do ataque / como aconteceu:
+O software MOVEit Transfer (e MOVEit Cloud), usado para transferência de arquivos, apresentava uma vulnerabilidade de SQL Injection (no endpoint web) que permitia a um atacante não autenticado acessar o banco de dados através da aplicação. O grupo Cl0p explorou essa falha, implantou webshells disfarçadas e exfiltrou grandes volumes de dados de múltiplas organizações.
+
+4- Vulnerabilidade explorada (CVE):
+CVE-2023-34362
+
+5- Impactos e/ou prejuízo (estimado):
+- Mais de 2.700 organizações afetadas.
+- Cerca de 93,3 milhões de pessoas com dados expostos.
+
+6- Tipo de proteção que poderia ter sido aplicada:
+- Aplicar patches e atualizações assim que liberados.
+- Testes de segurança (pentests) e revisão de código para detectar SQL Injection.
+- Implementar Web Application Firewall (WAF) para mitigar requisições maliciosas.
+- Monitoramento de logs e detecção de webshells.
+- Segmentação de rede e princípio do menor privilégio para limitar impacto.
+
+Ataque 2: Log4Shell (CVE-2021-44228) — Execução Remota de Código em biblioteca de logging
+
+1- Data do ataque (aproximada):
+Divulgada em dezembro de 2021; exploração em larga escala no final de 2021 e ao longo de 2022.
+
+2- Tipo de ataque:
+Vulnerabilidade de execução remota de código (RCE) em biblioteca (zero-day), amplamente explorada.
+
+3- Descrição do ataque:
+A biblioteca Apache Log4j (versões 2.0-beta9 até 2.14.1) permitia lookups via JNDI em strings de log. Um atacante podia inserir uma payload (por exemplo em cabeçalhos HTTP) contendo uma referência JNDI controlada, levando o servidor a carregar e executar código remoto. Devido à ubiquidade do Log4j, centenas de milhões de sistemas estavam potencialmente expostos.
+
+4- Vulnerabilidade explorada (CVE):
+CVE-2021-44228
+
+5- Impactos e/ou prejuízo (estimado):
+- CVSS 10.0 (máxima gravidade).
+- Afetou potencialmente centenas de milhões de servidores e aplicações que usavam Log4j.
+- Custos altos de mitigação, correção emergencial e risco de comprometimento de dados e disponibilidade.
+
+6- Tipo de proteção que poderia ter sido aplicada:
+- Manter dependências e bibliotecas atualizadas; uso de SCA (Software Composition Analysis).
+- Desabilitar ou limitar funcionalidades perigosas (ex.: desativar lookups JNDI quando não usados).
+- Monitoramento e resposta rápida a novas CVEs.
+- Restrições de rede (evitar que servidores façam conexões JNDI externas), segmentação e menor privilégio.
+- Inventário de dependências para saber onde bibliotecas críticas são utilizadas.
+
+Bibliografia: Wikipedia, Cloud Google, Fastly e Sysdig.
