@@ -1,0 +1,28 @@
+Pesquisa sobre Criptografia
+
+1- Dois exemplos históricos do uso de criptografia:
+
+Cifra de César (aprox. 50 a.C.):
+Julio César utilizava um método de substituição simples para proteger mensagens militares. Cada letra era substituída por outra deslocada um número fixo de posições no alfabeto. Exemplo: com deslocamento de 3, “A” -> “D”.
+
+Máquina Enigma (Segunda Guerra Mundial):
+Utilizada pela Alemanha nazista, a Enigma realizava substituições complexas com rotores eletromecânicos, tornando as mensagens extremamente difíceis de decifrar. Sua quebra pelos Aliados foi fundamental para encurtar a guerra.
+
+2- Dois algoritmos de criptografia com chaves simétricas utilizados atualmente:
+
+AES (Advanced Encryption Standard):
+Um dos algoritmos mais utilizados atualmente, adotado como padrão pelo governo dos EUA. Trabalha com chaves de 128, 192 ou 256 bits. Muito usado em VPNs, Wi-Fi (WPA2/WPA3), discos criptografados e protocolos como TLS.
+
+ChaCha20:
+Algoritmo moderno de fluxo, projetado para ser rápido e seguro, especialmente em dispositivos móveis. Amplamente usado em protocolos como TLS e em ferramentas como o Google Chrome e OpenSSH.
+
+
+3- Dois algoritmos de criptografia com chaves assimétricas utilizados atualmente:
+
+RSA (Rivest–Shamir–Adleman):
+Um dos primeiros e mais conhecidos sistemas de criptografia de chave pública. Usado em certificados digitais, assinaturas digitais e protocolos como HTTPS/TLS.
+
+ECC (Elliptic Curve Cryptography):
+Criptografia baseada em curvas elípticas. Oferece o mesmo nível de segurança que RSA, mas com chaves muito menores e mais eficiência. É amplamente utilizada em dispositivos móveis, criptomoedas e comunicações seguras.
+
+Bibliografia: Wikipedia, Nist e Youtube.
