@@ -1,0 +1,32 @@
+O Papel Vital da Criptografia na Era Digital:
+
+A criptografia, a ciência de codificar e decodificar informações para garantir sua segurança, tornou-se um pilar fundamental da sociedade moderna. De transações financeiras a comunicações pessoais, sua aplicação é onipresente e essencial para a privacidade e a segurança no século XXI. Abaixo, apresentamos dois exemplos históricos recentes que ilustram seu impacto, juntamente com os principais algoritmos de chaves simétricas e assimétricas que sustentam o nosso mundo digital.
+
+Exemplos Históricos do Uso de Criptografia
+
+1. A Popularização da Criptografia de Ponta a Ponta em Aplicativos de Mensagens:
+A primeira década e meia do século XXI viu a ascensão massiva dos aplicativos de mensagens instantâneas. No entanto, a conscientização sobre a vigilância governamental e a interceptação de dados, impulsionada por revelações como as de Edward Snowden em 2013, gerou uma demanda pública por maior privacidade. Em resposta, aplicativos como o WhatsApp (a partir de 2016) e o Signal implementaram a criptografia de ponta a ponta (E2EE) por padrão para bilhões de usuários. Este movimento representou um marco histórico, tornando a criptografia forte acessível e automática para o cidadão comum. Na prática, a E2EE garante que apenas o remetente e o destinatário possam ler o conteúdo das mensagens, impedindo que a própria empresa provedora do serviço ou terceiros tenham acesso.
+
+2. A Adoção Universal do Protocolo TLS para Segurança na Web:
+Embora suas raízes sejam mais antigas, a adoção e a exigência do protocolo Transport Layer Security (TLS) tornaram-se um padrão de fato na web durante o século XXI. O TLS é o protocolo criptográfico que garante a segurança das conexões entre navegadores e servidores, representado pelo "cadeado" na barra de endereço. Eventos como a iniciativa "HTTPS Everywhere" e a decisão de grandes navegadores de marcar sites HTTP como "não seguros" foram cruciais para sua universalização. Essa transição massiva para HTTPS protegeu os usuários contra a interceptação de dados, como informações de login e detalhes de cartão de crédito, em atividades cotidianas como compras online, acesso a e-mails e redes sociais, redefinindo a segurança e a confiança na internet.
+
+Algoritmos de Criptografia em Uso Atualmente
+
+Criptografia com Chaves Simétricas
+
+Neste modelo, a mesma chave é utilizada tanto para criptografar quanto para descriptografar a informação. É conhecida por sua alta velocidade e eficiência.
+
+1. AES (Advanced Encryption Standard):
+Considerado o padrão ouro da criptografia simétrica, o AES é amplamente utilizado para proteger dados em repouso e em trânsito. Ele opera com chaves de 128, 192 ou 256 bits, oferecendo um altíssimo nível de segurança.
+
+2. Blowfish/Twofish:
+São algoritmos de cifra de bloco conhecidos por sua força e flexibilidade. O Blowfish foi projetado como uma alternativa rápida e livre de patentes, e o Twofish é seu sucessor aprimorado. Ambos são encontrados em uma variedade de softwares de segurança.
+
+Criptografia com Chaves Assimétricas
+Também conhecida como criptografia de chave pública, utiliza um par de chaves: uma pública (para criptografar) e uma privada (para descriptografar).
+
+1. RSA (Rivest-Shamir-Adleman):
+Um dos primeiros e mais conhecidos algoritmos de chave pública, o RSA é fundamental para a segurança na internet. É amplamente utilizado em protocolos como o TLS para a troca segura de chaves e para a criação de assinaturas digitais.
+
+2. ECC (Elliptic Curve Cryptography - Criptografia de Curva Elíptica):
+O ECC oferece o mesmo nível de segurança que o RSA, mas com chaves significativamente menores. Essa eficiência o torna ideal para ambientes com limitações de processamento ou energia, como dispositivos móveis e sistemas de IoT.
